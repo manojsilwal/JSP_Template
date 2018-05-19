@@ -2,6 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="groovy_module_main" target="1.8" />
+      <module name="groovy_module_test" target="1.8" />
       <module name="spring-boot-gradle_main" target="1.8" />
       <module name="spring-boot-gradle_test" target="1.8" />
     </bytecodeTargetLevel>

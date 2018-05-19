@@ -17,3 +17,5 @@ include 'services:webservice'
 */
 
 rootProject.name = 'spring-boot-gradle'
+include 'groovy_module'
+

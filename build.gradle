@@ -11,7 +11,7 @@ buildscript {
 }
 
 apply plugin: 'java'
-apply plugin: 'eclipse'
+apply plugin: 'groovy'
 apply plugin: 'org.springframework.boot'
 
 jar {
@@ -29,5 +29,6 @@ repositories {
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web','org.apache.tomcat.embed:tomcat-embed-jasper'
 	,'javax.servlet:jstl')
+	compile 'org.codehaus.groovy:groovy-all:2.3.11'
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
